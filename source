@@ -86741,9 +86741,10 @@ body { display:none }
   <div algorithm>
   <p>An <dfn export>editing host</dfn> is either an <span data-x="HTML elements">HTML element</span>
   with its <code data-x="attr-contenteditable">contenteditable</code> attribute in the <i>true</i>
-  state or <i>plaintext-only</i> state, or a <span data-x="concept-tree-child">child</span> <span
-  data-x="HTML elements">HTML element</span> of a <code>Document</code> whose <span>design mode
-  enabled</span> is true.</p>
+  state or <i>plaintext-only</i> state, or an <span data-x="HTML elements">HTML element</span> with
+  its <code data-x="attr-contenteditable">contenteditable</code> attribute in the <i>inherit</i>
+  state which is a <span data-x="concept-tree-child">child</span> of a <code>Document</code> whose
+  <span>design mode enabled</span> is true.</p>
   </div>
 
   <p>The definition of the terms <dfn
@@ -157126,6 +157127,7 @@ INSERT INTERFACES HERE
   Leif Halvard Silli,
   Leif Kornstaedt,
   Lenny Domnitser,
+  Leo Tenenbaum,
   Leonard Rosenthol,
   Leons Petrazickis,
   Liviu Tinta,
